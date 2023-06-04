@@ -1,0 +1,7 @@
+{
+  "order_id":"$.detail.order_id",
+  "cust_address":"$.detail.customer.address",
+  "cust_city":"$.detail.customer.city",
+  "cust_state":"$.detail.customer.state",
+  "cust_country_code":"$.detail.customer.country_code"
+}

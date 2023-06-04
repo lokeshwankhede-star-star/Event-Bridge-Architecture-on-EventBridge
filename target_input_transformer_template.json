@@ -1,0 +1,16 @@
+{
+  "seller_id":"111",
+  "customer_order_id":"<order_id>",
+  "customer":{
+  "address":"<cust_address>",
+  "city":"<cust_city>",
+  "state":"<cust_state>",
+  "country_code":"<cust_country_code>"
+}
+}
+
+--------------------
+For api gateway:
+
+https://webhook.site
+--------------------
