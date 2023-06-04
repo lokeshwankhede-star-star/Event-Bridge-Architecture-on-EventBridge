@@ -238,3 +238,7 @@ D) Check Cloudwatch log group:
   -  Expand " Timestamp " and review message
 
   ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/d395ac59-da49-4a87-8c2d-345f0f79a9b5)
+  
+  ---
+  ## Congratulations 🎊 you have completed event driven architecture
+  ---
