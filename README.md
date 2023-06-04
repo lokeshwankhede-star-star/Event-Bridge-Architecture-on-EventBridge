@@ -157,7 +157,34 @@ b. Canada-Shipping:
   - Review and create:
  
        - Review
-       - Create rule       
+       - Create rule     
+
+A) Send Event through " Event buses ":
+  
+  - Navigate and click on " Event buses ".
+  
+  ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/afeca5ca-be9c-49f8-9a8c-45ea436fb883)
+
+  - Click on your Event buses ex. " orders "
+  - Click on " Send events " (on top)
+  
+  ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/5fb00cc8-73d2-4ed0-bcd1-32ffd440f9db)
+
+- Send events:
+    - Destination: Event bus
+    - Event bus: ex. orders
+    - Event source: com.anycompany.orders
+    - Detail type: new-order
+    - Event detail: copy and paste " event.json " file code
+    
+    
+  ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/5299ffde-b160-47ab-8ed3-36d44a5e549c)
+
+  ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/3d5058b1-5b86-4c9f-b172-c24a532090fc)
+
+
+
+
        
        
      
