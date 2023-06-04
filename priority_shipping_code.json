@@ -1,0 +1,10 @@
+{
+  "detail": {
+    "customer": {
+      "country_code": ["US"]
+    },
+    "order_amount": [{
+      "numeric": [">=", 100]
+    }]
+  }
+}
