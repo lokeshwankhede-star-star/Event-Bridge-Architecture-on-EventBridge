@@ -1,0 +1,27 @@
+-- For Canada Shipping
+
+ {
+        "order-id": "cannada-shipping-test",
+        "order_amount": 107.54,
+        "customer": {
+            "address": "123 Main Street",
+            "city": "Anycity",
+            "state": "WA",
+            "country_code": "CA"
+        }
+    }
+
+--- or-----
+
+-- For Priority Shipping
+
+{
+    "order_id":"145",
+    "order_amount":146.24,
+    "customer":{
+      "address":"123 Main Street",
+      "city":"Anycity",
+      "state":"WA",
+      "country_code":"US"
+  }
+}
