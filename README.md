@@ -167,7 +167,7 @@ C) Send Event through " Event buses ":
   
   ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/afeca5ca-be9c-49f8-9a8c-45ea436fb883)
 
-  - Click on your Event buses ex. " orders "
+  - Click on your Event bus ex. " orders "
   - Click on " Send events " (on top)
   
   ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/5fb00cc8-73d2-4ed0-bcd1-32ffd440f9db)
@@ -189,7 +189,20 @@ C) Send Event through " Event buses ":
   ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/43449657-fbca-4a3d-80ec-04b5968d44d1)
 
   b. Cannada shipping event
+
+  - Click on your Event bus ex. " orders "
+  - Click on " Send events " (on top)
   
+  ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/5fb00cc8-73d2-4ed0-bcd1-32ffd440f9db)
+
+    - Send events:
+        - Destination: Event bus
+        - Event bus: ex. orders
+        - Event source: com.anycompany.orders
+        - Detail type: new-order
+        - Event detail: copy and paste " event.json " file code
+        - Send
+
   ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/e5238cc1-93ab-494f-99d3-2009ae11cbf0)
 
   ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/b73554d6-94ad-4ed3-ab22-e89a7b3f7117)
@@ -223,20 +236,5 @@ D) Check Cloudwatch log group:
     ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/f3e09803-18f0-42b8-af60-fcc296929226)
     
   -  Expand " Timestamp " and review message
-  
-    ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/e257dfdf-e9fc-499b-b882-208189b2e551)
 
-    
-
-    
-  
-
-
-
-
-       
-       
-     
-
-
-
+  ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/d395ac59-da49-4a87-8c2d-345f0f79a9b5)
