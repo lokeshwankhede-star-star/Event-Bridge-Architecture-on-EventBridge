@@ -159,7 +159,9 @@ b. Canada-Shipping:
        - Review
        - Create rule     
 
-A) Send Event through " Event buses ":
+       ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/2e3b316b-bfc7-4aae-b021-7948675d58c0)
+
+C) Send Event through " Event buses ":
   
   - Navigate and click on " Event buses ".
   
@@ -176,11 +178,58 @@ A) Send Event through " Event buses ":
     - Event source: com.anycompany.orders
     - Detail type: new-order
     - Event detail: copy and paste " event.json " file code
-    
-    
-  ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/5299ffde-b160-47ab-8ed3-36d44a5e549c)
+    - Send
+  
+  a. Priority shipping event
+  
+  ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/b9d6da3d-00e7-4e06-8f71-df451148b86d)
 
   ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/3d5058b1-5b86-4c9f-b172-c24a532090fc)
+  
+  ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/43449657-fbca-4a3d-80ec-04b5968d44d1)
+
+  b. Cannada shipping event
+  
+  ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/e5238cc1-93ab-494f-99d3-2009ae11cbf0)
+
+  ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/b73554d6-94ad-4ed3-ab22-e89a7b3f7117)
+
+  
+D) Check Cloudwatch log group:
+
+  - Search for " CloudWatch " in console
+    
+    ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/4742d4ea-0d72-4bae-8b42-82480ae7cc89)
+
+  - Inside " Logs "  click on " Log group " (Present in left naviagation panel)
+  
+    ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/8ea1936f-b5af-4ce0-8566-b8dfb19312c8)
+    
+  - Click on " /aws/events/priority-shipping " log group.
+  - Click on " Log streams " recent event
+  
+    ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/6edfbea1-3504-4a79-bd67-4275c51bb27e)
+
+  - Expand " Timestamp " and review message
+  
+    ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/c5a7ae9f-548d-44ee-a023-adf6c1714c44)
+
+  - Go back and click on " /aws/events/canada-shipping " log group.
+    
+    ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/dab45ee7-42e6-452e-ae6b-8ceab9fd6051)
+
+  - Click on " Log streams " recent event
+
+    ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/f3e09803-18f0-42b8-af60-fcc296929226)
+    
+  -  Expand " Timestamp " and review message
+  
+    ![image](https://github.com/lokeshwankhede-star-star/Event-Bridge-Architecture-on-EventBridge/assets/81281161/e257dfdf-e9fc-499b-b882-208189b2e551)
+
+    
+
+    
+  
 
 
 
